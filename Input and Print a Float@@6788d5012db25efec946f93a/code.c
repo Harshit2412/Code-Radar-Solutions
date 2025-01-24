@@ -5,5 +5,4 @@ int main(){
     printf("You entered: ");
     printf("%.2f",n);
     return 0;
-   
 }
