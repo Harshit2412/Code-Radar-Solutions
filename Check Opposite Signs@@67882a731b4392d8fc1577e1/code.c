@@ -12,5 +12,5 @@ int main(){
     else{
         printf("False");
     }
-    rturn 0;
+    
 }
