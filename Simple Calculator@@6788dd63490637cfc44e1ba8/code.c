@@ -18,7 +18,7 @@ int main(){
     else if(c=='*'){
         printf("%d",product);
     }
-    else if(c=='/'){
+    else{
         printf{"%d",division};
     }
     
