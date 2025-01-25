@@ -21,8 +21,6 @@ int main(){
     else if(c=="/"){
         printf{"%d",division};
     }
-    else{
-        printf("error");
-    }
+    
    return 0;
 }
