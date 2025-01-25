@@ -3,9 +3,9 @@ int main(){
     int month;
     scanf("%d",&month);
     switch(month){
-        case 1:printf("%d",31);
+        case 1:printf(31);
         break;
-        case 2:printf("%d",28);
+        case 2:printf(28);
         break;
         case 3:printf("%d",31);
         break;
