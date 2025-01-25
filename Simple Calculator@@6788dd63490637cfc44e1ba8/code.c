@@ -9,10 +9,10 @@ int main(){
     int diff=a-b;
     int product=a*b;
     int division=a/b;
-    if(c=="+"){
+    if(c=='+'){
         printf("%d",sum);
     }
-    else if(c=="-"){
+    else if(c=='-'){
         printf("%d",diff);
     }
     else if(c=="*"){
