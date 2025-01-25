@@ -5,7 +5,7 @@ int main(){
     if(a%2==0){
         printf("Even");
     }
-    else if(a%2!=0){
+    else{
         printf("Odd");
     }
     return 0;
