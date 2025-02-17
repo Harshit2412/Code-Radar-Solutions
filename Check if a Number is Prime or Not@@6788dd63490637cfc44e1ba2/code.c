@@ -1,19 +1,30 @@
-#include<stdio.h>
-int main(){
-    int n;
-    scanf("%d",&n);
-    int sum=0;
-    for(int i=2;i<n;i++){
-        if (n%i==0){
-            sum+=1;
-            break;
+#include <stdio.h>
+
+int main() {
+    int num, i, flag = 0;
+
+    // Taking input
+    scanf("%d", &num);
+
+    // Check if the number is greater than 1
+    if (num > 1) {
+        // Check for factors from 2 to num/2
+        for (i = 2; i <= num / 2; i++) {
+            if (num % i == 0) {
+                flag = 1;
+                break;
+            }
         }
-        if(sum==1 && n>1){
-            printf("Not Prime");
+
+        // Output the result
+        if (flag == 0) {
+            printf("Prime\n");
+        } else {
+            printf("Not Prime\n");
         }
-        else{
-            printf("Prime");
-        }
+    } else {
+        printf("Not Prime\n");
     }
+
     return 0;
 }
