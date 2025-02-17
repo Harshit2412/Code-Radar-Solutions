@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
+    int n;
+    scanf("%d",&n);
     if(!(a>0)){
         printf("True");
     }
@@ -9,5 +9,4 @@ int main(){
         printf("False");
     }
     return 0;
-
 }
