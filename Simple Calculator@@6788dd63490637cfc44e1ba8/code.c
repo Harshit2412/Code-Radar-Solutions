@@ -22,7 +22,7 @@ int main() {
             if (num2 != 0) {
                 printf("%d\n", num1 / num2);
             } else {
-                printf("Error: Division by zero\n");
+                printf("Error: ");
             }
             break;
         default:
