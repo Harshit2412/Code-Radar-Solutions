@@ -6,6 +6,6 @@ int main(){
         for(int space=n-1;space>=1;space--){
             printf(" ");
         }
-        
+        printf("\n");
     }
 }
