@@ -8,7 +8,7 @@ int main(){
     }
     int a=0;
     int b=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<N;i++){
         if(arr[i]%2==0){
             a++;
         }
