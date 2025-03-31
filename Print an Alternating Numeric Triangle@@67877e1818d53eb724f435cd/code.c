@@ -6,7 +6,7 @@ int main(){
         for(int j=0;j<=i;j++){
             if(i%2==0){
                 if(j%2==0){
-                    printf(" 1 ");
+                    printf("1 ");
                 }
                 else{
                     printf("0");
@@ -14,7 +14,7 @@ int main(){
             }
             else{
                 if(j%2==0){
-                    printf("0");
+                    printf("0 ");
                 }
                 else{
                     printf("1");
