@@ -5,8 +5,8 @@ int bubbleSort(int arr[],int n){
             if(arr[j] > arr[j+1]){
                 int temp;
                 temp = arr[j];
-                arr[i] = arr[i+1];
-                arr[i+1] = temp;
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
             }
         }
     }
