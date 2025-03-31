@@ -20,7 +20,14 @@ int main(){
     }
     sort(arr,n);
     int maximum=arr[n-1]*arr[n-2];
-    printf("%d",maximum);
+    int minimum=arr[0]*arr[1];
+    if(maximum>minimum){
+        printf("%d",maximum);
+    }
+    else{
+        printf("%d",minimum);
+    }
+    
     return 0;
 
 
