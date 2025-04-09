@@ -13,15 +13,15 @@ int main(){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-                printf("%d",arr[n-1]);
             }
             else{
                 printf("-1");
             }
         }
     }
-    
+    printf("%d",arr[n-1]);
 
+    
 
 
 
