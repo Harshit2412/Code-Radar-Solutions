@@ -16,7 +16,7 @@ int main(){
             }
         }
     }
-    printf("%d",arr[n]);
+    printf("%d",arr[n-1]);
 
 
 
